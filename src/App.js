@@ -31,9 +31,9 @@ function App() {
   return (
     <div className="">
       {/* Navigator bar */}
-        <div className='flex justify-between pt-8 px-8 items-center '> 
+        <div className='flex justify-between pt-8 px-8 items-center sm:pt-16 sm:px-16'> 
           <div>
-            <img src={logo} alt='fylo logo' className='w-32'/>
+            <img src={logo} alt='fylo logo' className='w-32 sm:w-auto'/>
           </div>
 
           <div className='flex gap-6 text-DB'>
